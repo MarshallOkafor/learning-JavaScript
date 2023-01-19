@@ -1,5 +1,4 @@
 ---
-title: My JavaScript Learning Progress Blog
+title: Welcome to my blog
 ---
 
-A blog for my software engineering course, describing my progress in learning JavaScript
