@@ -2,4 +2,4 @@
 title: My JavaScript Learning Progress Blog
 ---
 
-A blog for my software engineering course, describing my progress in learning JavaScript
+I have always wanted to learn JavaScript. I am excited about this experience and can not wait to roll up my sleeves. I will be using this blog to discuss my progress.
