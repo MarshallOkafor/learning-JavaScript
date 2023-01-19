@@ -1,5 +1,5 @@
 ---
-title: "My motivation - The power behind dynamic Web application"
+title: "My Motivation - The Power Behind Dynamic Web Applications"
 date: 2023-01-18
 ---
 
