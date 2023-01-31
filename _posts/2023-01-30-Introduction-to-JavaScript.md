@@ -24,8 +24,8 @@ Note that, while working on the browser console, you do not need the console.log
 ### My First JavaScript program
 I wrote my first JavaScript program which is a one line code that prints 'Hello, World!'. Unlike other languages like python which uses the print() function to display information to the user, JavaScript uses console.log() to display information on the browser console. consol.log() is a built-in function that can take any argument such as integer, string, boolean, and variables as input and displays the corresponding output. In my first JavaScript program, I passed the string 'Hello, World! as input to the function console.log() and it displayed the string as an output.
 
-######console.log('Hello, World!)
-######console.log('I', 'am', 'learning', 'JavaScript!')
+###### console.log('Hello, World!)
+###### console.log('I', 'am', 'learning', 'JavaScript!')
 
 The console.log() function can take multiple arguments just as seen above in the second code snippet. Another discovery that blowed my mind is that although it recommended to delimit every JavaScript statement with a semicolon: ;, you can skip it and the code will still run without errors. I learned that JavaScript uses what is called Automatic Semicolon Insertion, that is, the interpreter adds any missing semicolons behind the scenes for us. So we do not have to worry about semicolons. This is amazing! Feel free to try it out.
 
@@ -33,34 +33,34 @@ The console.log() function can take multiple arguments just as seen above in the
 Comments are statement that describe our program. Comments are ignored by the interpreter and are not exceuted. In JavaScript, there are two types of syntax to write comments:
 
 ##### Single-line Comments
-######// This is a single line comment
-######// This is another single line comment.
-######// Did you notice that you use two forward slashes to make a single comment.
+###### // This is a single line comment
+###### // This is another single line comment.
+###### // Did you notice that you use two forward slashes to make a single comment.
 
 ##### Multi-line Comment
-######/* 
+###### /* 
 This is a multi-line comment.
 Multiple line comments can span many lines.
 To start a multi-line comment, use a single forward slash first and then a star character as shown above.
 To end a multi-line comment, enter a star character first, followed by the forward slash as shown here.
-######*/
+###### */
 
 ### JavaScript Code Syntax
 Just like every other pramming language, JavaScript has its own syntax. Syntax is basically the rules that dictate or guides the structure of statements in a particular language. This means that, when writing JavaScript code, we must stick to these rules otherwise, the interpreter will not understand our code and display errors. Remember my first JavaScript program: console.log('Hello, World!'), I will use that function again to describe what I learned about JavaScript syntactic structure.
 
 ##### Text
 To output text using the console.log() function, the text must be enclosed in a single or double quotation mark as shown in the example below:
-######console.log('This text is enclosed in single quotes')
-######console.log("This is enclosed in double quotes")
-######console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
+###### console.log('This text is enclosed in single quotes')
+###### console.log("This is enclosed in double quotes")
+###### console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
 
 ##### Numbers and Arithmetics
 Using the console.log() function, we can operate on numbers and display the results on the browser console. To display numbers, we do not need to enclose them within quotes. More so, we can carry out arithmetic operations on the numbers, JavaScript will operate on them and output the result. Some examples are shown below:
-######console.log(2023) // Displays 2023
-######console.log(1 + 2) // Addition
-######console.log(5 - 3) //Subtraction
-######console.log(3 * 1) // Multiplication
-######console.log(4 / 3) // Division
-######console.log(10 % 5) // Modulo
-######console.log(3 ** 1) // Exponentiation
-######console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
+###### console.log(2023) // Displays 2023
+###### console.log(1 + 2) // Addition
+###### console.log(5 - 3) //Subtraction
+###### console.log(3 * 1) // Multiplication
+###### console.log(4 / 3) // Division
+###### console.log(10 % 5) // Modulo
+###### console.log(3 ** 1) // Exponentiation
+###### console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
