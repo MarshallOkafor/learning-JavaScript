@@ -85,4 +85,14 @@ The inline method is when you add the JavaScript code directly on a HTML tag. Fo
 The alert() builtin function used above is a JavaScript code.
 
 #### Internal script
-For this method, the JavaScript code is added within a script tag either in the ==head== or the ==body== of the HTML file
+In this method, the JavaScript code is added within a script tag either in the ==head== or the ==body== section of the HTML file.  
+```  
+  <script>
+    console.log('I am taking Software Engineering!')
+  </script>
+```
+#### External script
+In this method, the JavaScript code is saved in a different file with a ==.js== within our project directory. Then within our HTML code either in the ==head== or ==body== section, we create a link or reference to our JavaScript file. The link is created with a script tag and the ==path== to our JavaScript file is passed to the ==src== attribute in the script tag. See example below:  
+```  
+  <script src="name_of_JavaScript_file.js"></script>
+```
