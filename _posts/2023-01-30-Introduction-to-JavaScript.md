@@ -51,9 +51,9 @@ Just like every other pramming language, JavaScript has its own syntax. Syntax i
 ##### Text
 To output text using the console.log() function, the text must be enclosed in a single or double quotation mark as shown in the example below:
 
-console.log('This text is enclosed in single quotes')
-console.log("This is enclosed in double quotes")
-###### console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
+console.log('This text is enclosed in single quotes')  
+console.log("This is enclosed in double quotes")  
+console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
 
 ##### Numbers and Arithmetics
 Using the console.log() function, we can operate on numbers and display the results on the browser console. To display numbers, we do not need to enclose them within quotes. More so, we can carry out arithmetic operations on the numbers, JavaScript will operate on them and output the result. Some examples are shown below:
