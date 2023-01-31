@@ -14,7 +14,7 @@ With JavaScript, we can ingest interactivity and beahavior into our making pages
 ### The Browser Console
 When we write JavaScript on a text editor and attach it to our HTML program, the code goes to the web browser console from where it is converted to machine code and interpreted. One interesting thing that I learned is that JavaScript code can directly be run from the browser console. Although, the console is expected to be used mainly for debugging purpose, it was fascinating to learn that we could test JavaScript code using the browser console. Another interesting thing that I picked up from here is the shortcut to open Google Chrome browser console on MacOS which is the computer that I am using:
 
-###### Mac
+#### Mac
 Command+Option+I
 
 JavaScript code can be written on any browser console, be sure to check how to open the console of your browser and try out a simple JavaScript code there.
@@ -32,12 +32,12 @@ The console.log() function can take multiple arguments just as seen above in the
 ### Comments
 Comments are statement that describe our program. Comments are ignored by the interpreter and are not exceuted. In JavaScript, there are two types of syntax to write comments:
 
-##### Single-line Comments
+#### Single-line Comments
 // This is a single line comment  
 // This is another single line comment  
 // Did you notice that you use two forward slashes to make a single comment.
 
-##### Multi-line Comment
+#### Multi-line Comment
 /* 
 This is a multi-line comment  
 Multiple line comments can span many lines  
@@ -48,14 +48,14 @@ To end a multi-line comment, enter a star character first, followed by the forwa
 ### JavaScript Code Syntax
 Just like every other pramming language, JavaScript has its own syntax. Syntax is basically the rules that dictate or guides the structure of statements in a particular language. This means that, when writing JavaScript code, we must stick to these rules otherwise, the interpreter will not understand our code and display errors. Remember my first JavaScript program: console.log('Hello, World!'), I will use that function again to describe what I learned about JavaScript syntactic structure.
 
-##### Text
+#### Text
 To output text using the console.log() function, the text must be enclosed in a single or double quotation mark as shown in the example below:
 
 console.log('This text is enclosed in single quotes')  
 console.log("This is enclosed in double quotes")  
 console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
 
-##### Numbers and Arithmetics
+#### Numbers and Arithmetics
 Using the console.log() function, we can operate on numbers and display the results on the browser console. To display numbers, we do not need to enclose them within quotes. More so, we can carry out arithmetic operations on the numbers, JavaScript will operate on them and output the result. Some examples are shown below:  
 
 console.log(2023) // Displays 2023  
@@ -74,5 +74,5 @@ After learning and testing some JavaScript code directly on the browser console,
 - Internal script
 - External script
 
-##### Inline script
+#### Inline script
 
