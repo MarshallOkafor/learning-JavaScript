@@ -24,8 +24,8 @@ Note that, while working on the browser console, you do not need the console.log
 ### My First JavaScript program
 I wrote my first JavaScript program which is a one line code that prints 'Hello, World!'. Unlike other languages like python which uses the print() function to display information to the user, JavaScript uses console.log() to display information on the browser console. consol.log() is a built-in function that can take any argument such as integer, string, boolean, and variables as input and displays the corresponding output. In my first JavaScript program, I passed the string 'Hello, World! as input to the function console.log() and it displayed the string as an output.
 
-console.log('Hello, World!)  
-console.log('I', 'am', 'learning', 'JavaScript!')
+  console.log('Hello, World!)  
+  console.log('I', 'am', 'learning', 'JavaScript!')
 
 The console.log() function can take multiple arguments just as seen above in the second code snippet. Another discovery that blowed my mind is that although it recommended to delimit every JavaScript statement with a semicolon: ;, you can skip it and the code will still run without errors. I learned that JavaScript uses what is called Automatic Semicolon Insertion, that is, the interpreter adds any missing semicolons behind the scenes for us. So we do not have to worry about semicolons. This is amazing! Feel free to try it out.
 
@@ -33,9 +33,9 @@ The console.log() function can take multiple arguments just as seen above in the
 Comments are statement that describe our program. Comments are ignored by the interpreter and are not exceuted. In JavaScript, there are two types of syntax to write comments:
 
 #### Single-line Comments
-// This is a single line comment  
-// This is another single line comment  
-// Did you notice that you use two forward slashes to make a single comment.
+  // This is a single line comment  
+  // This is another single line comment  
+  // Did you notice that you use two forward slashes to make a single comment.
 
 #### Multi-line Comment
 /* 
