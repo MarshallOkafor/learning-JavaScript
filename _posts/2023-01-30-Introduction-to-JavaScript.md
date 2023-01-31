@@ -38,12 +38,12 @@ Comments are statement that describe our program. Comments are ignored by the in
   // Did you notice that you use two forward slashes to make a single comment.
 
 #### Multi-line Comment
-/* 
-This is a multi-line comment  
-Multiple line comments can span many lines  
-To start a multi-line comment, use a single forward slash first and then a star character as shown above  
-To end a multi-line comment, enter a star character first, followed by the forward slash as shown here  
-*/
+  /*  
+  This is a multi-line comment  
+  Multiple line comments can span many lines  
+  To start a multi-line comment, use a single forward slash first and then a star character as shown above  
+  To end a multi-line comment, enter a star character first, followed by the forward slash as shown here  
+  */
 
 ### JavaScript Code Syntax
 Just like every other pramming language, JavaScript has its own syntax. Syntax is basically the rules that dictate or guides the structure of statements in a particular language. This means that, when writing JavaScript code, we must stick to these rules otherwise, the interpreter will not understand our code and display errors. Remember my first JavaScript program: console.log('Hello, World!'), I will use that function again to describe what I learned about JavaScript syntactic structure.
@@ -51,21 +51,21 @@ Just like every other pramming language, JavaScript has its own syntax. Syntax i
 #### Text
 To output text using the console.log() function, the text must be enclosed in a single or double quotation mark as shown in the example below:
 
-console.log('This text is enclosed in single quotes')  
-console.log("This is enclosed in double quotes")  
-console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
+  console.log('This text is enclosed in single quotes')  
+  console.log("This is enclosed in double quotes")  
+  console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
 
 #### Numbers and Arithmetics
 Using the console.log() function, we can operate on numbers and display the results on the browser console. To display numbers, we do not need to enclose them within quotes. More so, we can carry out arithmetic operations on the numbers, JavaScript will operate on them and output the result. Some examples are shown below:  
 
-console.log(2023) // Displays 2023  
-console.log(1 + 2) // Addition  
-console.log(5 - 3) //Subtraction  
-console.log(3 * 1) // Multiplication  
-console.log(4 / 3) // Division  
-console.log(10 % 5) // Modulo  
-console.log(3 ** 1) // Exponentiation  
-console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
+  console.log(2023) // Displays 2023  
+  console.log(1 + 2) // Addition  
+  console.log(5 - 3) //Subtraction  
+  console.log(3 * 1) // Multiplication  
+  console.log(4 / 3) // Division  
+  console.log(10 % 5) // Modulo  
+  console.log(3 ** 1) // Exponentiation  
+  console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
 
 ### How to add JavaScript to a Web Page
 After learning and testing some JavaScript code directly on the browser console, I learned how to add JavaScript code to a web page using a code editor. There are three different methods to add JavaScript code to your web page:
@@ -76,4 +76,4 @@ After learning and testing some JavaScript code directly on the browser console,
 
 #### Inline script
 The inline method is when you add the JavaScript code directly on a HTML tag. For example:  
-<button onclick="alert('I am Learning JS!');">Click</button>
+  <button onclick="alert('I am Learning JS!');">Click</button>
