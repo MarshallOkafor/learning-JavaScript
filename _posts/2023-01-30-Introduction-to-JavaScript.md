@@ -50,8 +50,9 @@ Just like every other pramming language, JavaScript has its own syntax. Syntax i
 
 ##### Text
 To output text using the console.log() function, the text must be enclosed in a single or double quotation mark as shown in the example below:
-###### console.log('This text is enclosed in single quotes')
-###### console.log("This is enclosed in double quotes")
+
+console.log('This text is enclosed in single quotes')
+console.log("This is enclosed in double quotes")
 ###### console.log(This is wrong and would trigger an error) // Hint: text must be within quotes
 
 ##### Numbers and Arithmetics
@@ -64,3 +65,7 @@ Using the console.log() function, we can operate on numbers and display the resu
 ###### console.log(10 % 5) // Modulo
 ###### console.log(3 ** 1) // Exponentiation
 ###### console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
+
+### How to add JavaScript to a Web Page
+After learning and testing some JavaScript code directly on the browser console, I learned how to add JavaScript code to a web page using a code editor. There three different methods to add JavaScript code to your web page:
+
