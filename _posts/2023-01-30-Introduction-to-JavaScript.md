@@ -75,4 +75,5 @@ After learning and testing some JavaScript code directly on the browser console,
 - External script
 
 #### Inline script
-
+The inline method is when you add the JavaScript code directly on a HTML tag. For example:  
+<button onclick="alert('I am Learning JS!');">Click</button>
