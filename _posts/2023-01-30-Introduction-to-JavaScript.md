@@ -57,6 +57,7 @@ console.log(This is wrong and would trigger an error) // Hint: text must be with
 
 ##### Numbers and Arithmetics
 Using the console.log() function, we can operate on numbers and display the results on the browser console. To display numbers, we do not need to enclose them within quotes. More so, we can carry out arithmetic operations on the numbers, JavaScript will operate on them and output the result. Some examples are shown below:  
+
 console.log(2023) // Displays 2023  
 console.log(1 + 2) // Addition  
 console.log(5 - 3) //Subtraction  
@@ -67,7 +68,8 @@ console.log(3 ** 1) // Exponentiation
 console.log(6 + '3') // This is not a mathematical operatiion because of the quotes used.
 
 ### How to add JavaScript to a Web Page
-After learning and testing some JavaScript code directly on the browser console, I learned how to add JavaScript code to a web page using a code editor. There are three different methods to add JavaScript code to your web page:  
+After learning and testing some JavaScript code directly on the browser console, I learned how to add JavaScript code to a web page using a code editor. There are three different methods to add JavaScript code to your web page:
+
 - Inline script
 - Internal script
 - External script
