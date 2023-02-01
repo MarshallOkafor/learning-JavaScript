@@ -131,4 +131,4 @@ In JavaScript valid variable names must follow the rules outlined below:
 
 This marks the end of the recap of my first week learning experience in JavaScript programing language. It was an amazing experience and I got my feet wet from writing several JavaScript programs.
 
-You can check out my [GitHub repo] (https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week1 "Week1 of learning JavaScript") to see the codes, examples and comments that I wrote while learning. I can not wait for another awesome week of learning JavaScript and sharing my progress with you!!
+You can check out my [GitHub repo](https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week1 "Week1 of learning JavaScript") to see the codes, examples and comments that I wrote while learning. I can not wait for another awesome week of learning JavaScript and sharing my progress with you!!
