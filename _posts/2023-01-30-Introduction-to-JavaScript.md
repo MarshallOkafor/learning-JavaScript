@@ -7,7 +7,7 @@ This is a recap of my first week of learning JavaScript.
 Most of what I learned was more on introduction to the JavaScript programming language. Many of the aspects touched were a bit familiar to me as they had similar concepts with other programming languages. 
 
 ### How JavaScript Works
-Websites before now used to be static pages displaying contents to users. There were no interactivity on web pages, just static information shown. HyperText Markup Language known as HTML is used to build the content and structure of web pages. Cascading Style Sheet also known as CSS is used to add styling to the pages. These styles include fonts, colors, layout, etc. However, both HTML and CSS are used to only create static web pages with still contents.
+Websites before now used to be static pages displaying contents to users. There were no interactivity on web pages, just static information shown. HyperText Markup Language known as HTML is used to build the content and structure of web pages. Cascading Style Sheet also known as CSS is used to add styling to the pages. These styles include fonts, colors, layout, etc. However, both HTML and CSS are used to only create static web pages with static contents.
 
 With JavaScript, we can add behavior into ourweb pages making them interactive and usable to our users. JavaScript allows us to react to events on our web pages like when a user clicks a button, grab input data directly on the page, manipulate, and validate input data on the fly. JavaScript enables powerful programmming behavior directly on the page resulting to a dynamic, interactive, and reactive web page.
 
