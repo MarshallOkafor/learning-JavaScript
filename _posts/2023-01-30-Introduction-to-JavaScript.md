@@ -28,7 +28,7 @@ I wrote my first JavaScript program which is a one line code that prints 'Hello,
   console.log('Hello, World!)  
   console.log('I', 'am', 'learning', 'JavaScript!')
 ```
-The console.log() function can take multiple arguments just as seen above in the second code snippet. Although it is recommended to delimit every JavaScript statement with a semicolon: ;, you can skip it and the code will still run without errors. I learned that JavaScript uses what is called Automatic Semicolon Insertion (ASI), that is, the interpreter adds any missing semicolons behind the scenes for us. So we do not have to worry about semicolons. This is amazing! Feel free to try it out.
+The console.log() function can take multiple arguments just as seen above in the second code snippet. Although it is recommended to delimit every JavaScript statement with a semicolon: ;, you can skip it and the code will still run without errors. I learned that JavaScript uses what is called [Automatic Semicolon Insertion (ASI)](https://262.ecma-international.org/7.0/#sec-rules-of-automatic-semicolon-insertion), that is, the interpreter adds any missing semicolons behind the scenes for us. So we do not have to worry about semicolons. This is amazing! Feel free to try it out.
 
 ### Comments
 Comments are statement that describe our programs. Comments are ignored by the interpreter and are not exceuted. In JavaScript, there are two types of syntax to write comments:
