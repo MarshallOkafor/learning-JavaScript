@@ -4,7 +4,7 @@ date: 2023-02-08
 ---
 I am excited to share the recap of my week-two learning experience of learning JavaScript.
 
-Recall that in week-one, I learned a lot about the basics of JavaScript programming language. Some of these basics include variables, types, expressions and so on.
+Recall that in week-one, I learned a lot about the basics of JavaScript programming language. Some of these basics include variables, data types, expressions and so on.
 This week was mostly exciting for me because I started writing real JavaScript code, that is, a meaningful code that has a simple logic and is usable. I built a simple Battleship game using JavaScript. While implementing this little project, I was able to learn how JavaScript GET input from a user via the web browser, performs CONDITIONAL operations (the game logic) on data, and DISPLAY output to a user, again via the web browser. 
 
 ### The Battleship Game
