@@ -29,7 +29,7 @@ To set up the game, I had to first create a HTML web page where the user with in
 Doing this reminded me if how to link our JavaScript code file on our HTML page using the script tag as seen above. The JavaScript code that has the game implementation was stored in ```batteship.js```.
 
 ### The Location Variables
-To implement the position of the ship, I assigned random integer numbers between 0 and 6 to three location variables. While doing we this, I learned about JavaScript ```Math``` object and its ```floor()``` and ```random()``` methods. One challenge that I faced is using the ```random()``` method. I learned that in JavaScript, the ```random()``` method only generates decimal numbers between 0 and 1 (like 0.113 to 0.999). So, to get a random value between say 0 and 6, you will have to multiply the decimal number returned by the ```Math.random() * 7``` and then use ```Math.floor()``` method to retrieve the integer number. Okay let us get the code I implemented for the location variables.
+To implement the position of the ship, I assigned random integer numbers between 0 and 6 to three location variables. While doing we this, I learned about JavaScript ```Math``` object and its ```floor()``` and ```random()``` methods. One challenge that I faced is using the ```random()``` method. I learned that in JavaScript, the ```random()``` method only generates decimal numbers between 0 and 1 (like 0.113 to 0.999). So, to get a random value between say 0 and 6, you will have to multiply the decimal number returned by 7 such as ```Math.random() * 7```, then use ```Math.floor()``` method to retrieve the integer number. Okay let us get the code I implemented for the location variables.
 
 ```
 // Location variables for the ship position
@@ -63,3 +63,49 @@ while (is_sunk == false) {
     
 }
 ```
+#### The Alert and Prompt Functions
+Recall that in week 1, I talked about the ```console.log()``` built-in function which is used to display information to the console section of the web browser. To display information directly on the web browser to a user, I learned about the ```alert()``` built-in function. In addtion, I learned about another built-in function call ```prompt()``` which is used to get data from a user. Using this two functions together with some conditional statements, I was able to implement the logic of the game. Take a look.
+
+```
+while (is_sunk == false) {
+    guess = prompt('Ready, aim, fire! (enter a number from 0-6: )');
+}
+```
+As seen above the ```prompt()``` takes the string argument I passed to it and will display that to the user on the web browser along with a text box to receive the user input. After getting the user's guess, I updated the ```guess`` variable with the value the user entered.
+
+Next, I had to check that the value the user is allowed to enter is between ```0 - 6```, otherwise we call on the ```alert()``` to inform the user of the allowed value range.
+
+```
+if (guess < 0 || guess > 6) {
+        alert('Please enter a valid cell number!');
+```
+Unlike Python, JavaScript uses ```||``` as its ```or``` operator. This was another challenge that I faced as initially I tried using ```or``` to compare and I got an error. The ```alert()``` takes in the string argument I passed to it and displays the information to the user.
+
+If the user enters a valid number, the game continues until the ship the is sunk. See below the rest of the code logic.
+
+```
+// Game logic to get user values compare with the ships locations
+// Compute user stats based on how many guesses
+while (is_sunk == false) {
+    guess = prompt('Ready, aim, fire! (enter a number from 0-6: ');
+    if (guess < 0 || guess > 6) {
+        alert('Please enter a valid cell number!');
+    } else {
+        guesses = guesses + 1;  
+        
+        if (guess == loc1 || guess == loc2 || guess == loc3){
+            alert('It is a HIT!')
+            hits += 1;
+
+            if (hits == 3){
+                is_sunk = true;
+                alert('You sank my battleship');
+            }
+        } else {
+            alert('It is a MISS!')
+        } 
+    }
+}
+```
+
+
