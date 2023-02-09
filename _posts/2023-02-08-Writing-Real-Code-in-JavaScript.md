@@ -14,6 +14,8 @@ The idea of the game is that the browser prompts the user to enter a guess (an i
 ### The Game Web Page
 To set up the game, I had to first create a HTML web page where the user will interact with the game. This reinforced my learning of how to plug in a JavaScript code to a web page. Below is the home page of the battleship game.
 
+<script src="https://gist.github.com/MarshallOkafor/6a7ac1b5c94e2084054e59cdfefe4030.js"></script>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
