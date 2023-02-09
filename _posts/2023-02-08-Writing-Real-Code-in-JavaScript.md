@@ -127,8 +127,8 @@ As you can see, I did not have to convert the data type of ```guesses```. JavaSc
 ### Challenges
 The challenges I had as I stated earlier were:
 1. Figuring out how to generate random numbers within a certain range. One has to be careful when trying to generate random numbers in JavaScript since the ```Math.random()``` built-in method only returns decimal numbers between 0 and 1 (excluding 1).  
-2. Figuring out JavaScript's logical operator for ```or```. JavaScript uses the symbol ```||``` unlike the usual English word ```or``` that I am used to in Python.
-3. Another challenge that I would say that I faced was keeping up the parenthesis and curly brackets when writing conditional statements and code blocks.
+2. Figuring out JavaScript's logical operator for ```or```. JavaScript uses the symbol ```||``` unlike the usual English word ```or``` that I am used to in Python. I am curious to learn about other symbols used in JavaScript.
+3. Another challenge that I would say that I faced was keeping up with the parenthesis and curly brackets when writing conditional statements and code blocks.
 
 ### Summary
 This brings me to the end of my week-2 learning experience on JavaScript Programming language. I was very excited while learning JavaScript this week as I had to write a meaningful program. Trying to understand and figure out every parts of the project helped me to learn new concepts as well as practice those that I learned before.
