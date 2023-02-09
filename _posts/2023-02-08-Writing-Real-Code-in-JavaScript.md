@@ -27,7 +27,7 @@ To set up the game, I had to first create a HTML web page where the user will in
     </body>
 </html>
 ```
-Doing this reminded me of how to link my JavaScript code file on a HTML page using the ```<script>``` tag and assigning the JavaScript file to the ```src``` attribute as seen above. The JavaScript code that has the game implementation was stored in ```battleship.js``` file.
+Doing this reminded me of how to link my JavaScript code file on a HTML page using the ```<script>``` tag and assign the JavaScript file to the ```src``` attribute as seen above. The JavaScript code that has the game implementation was stored in ```battleship.js``` file.
 
 ### The Location Variables
 To implement the position of the ship, I assigned random integer numbers between 0 and 6 to three location variables. While doing this, I learned about JavaScript ```Math``` object and its ```floor()``` and ```random()``` methods. One challenge that I faced was using the ```random()``` method. I learned that in JavaScript, the ```random()``` method only generates decimal numbers between 0 and 1 (for example 0.113 to 0.999). So, to get a random value between say 0 and 6, you will have to multiply the decimal number returned by 7 like this: ```Math.random() * 7```, then use ```Math.floor()``` method to retrieve the integer number. Okay let us get to the code I implemented for the location variables for clarity.
