@@ -74,7 +74,7 @@ while (is_sunk == false) {
     guess = prompt('Ready, aim, fire! (enter a number from 0-6: )');
 }
 ```
-As seen above, the ```prompt()``` function takes the string argument I passed to it and will display that to the user on the web browser along with a text box to receive the user input. After getting the user's guess, I updated the ```guess`` variable with the value the user entered.
+As seen above, the ```prompt()``` function takes the string argument I passed to it and will display that to the user on the web browser along with a text box to receive the user input. After getting the user's guess, I updated the ```guess``` variable with the value the user entered.
 
 Next, I had to check that the value the user is allowed to enter is between ```0 - 6```, otherwise we call on the ```alert()``` function to inform the user of the allowed value range.
 
