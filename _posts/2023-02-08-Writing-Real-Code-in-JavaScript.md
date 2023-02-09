@@ -132,4 +132,4 @@ The challenges I had as I stated earlier were:
 ### Summary
 This brings me to the end of my week-2 learning experience on JavaScript Programming language. I was very excited while learning JavaScript this week as I had to write a meaningful program. Trying to understand and figure out every parts of the project helped me to learn new concepts as well as practice those that I learned before.
 
-You can check out my GitHub repo to see the full codes I wrote while learning and implementing this project. I can not wait for another awesome week of learning JavaScript and sharing my progress with you. Stay tuned!!
+You can check out my [GitHub repo](https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week2) to see the full codes I wrote while learning and implementing this project. I can not wait for another awesome week of learning JavaScript and sharing my progress with you. Stay tuned!!
