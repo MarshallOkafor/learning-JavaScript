@@ -81,6 +81,7 @@ Next, I had to check that the value the user is allowed to enter is between ```0
 ```
 if (guess < 0 || guess > 6) {
         alert('Please enter a valid cell number!');
+        }
 ```
 Unlike Python, JavaScript uses ```||``` as its ```or``` operator. This was another challenge that I faced as initially I tried using ```or``` to compare and I got an error. The ```alert()``` function takes in the string argument I passed to it and displays the information to the user.
 
