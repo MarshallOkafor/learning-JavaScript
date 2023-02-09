@@ -81,11 +81,11 @@ if (guess < 0 || guess > 6) {
 ```
 Unlike Python, JavaScript uses ```||``` as its ```or``` operator. This was another challenge that I faced as initially I tried using ```or``` to compare and I got an error. The ```alert()``` takes in the string argument I passed to it and displays the information to the user.
 
+#### The Rest of Game Logic
 If the user enters a valid number, the game continues until the ship the is sunk. See below the rest of the code logic.
 
 ```
-// Game logic to get user values compare with the ships locations
-// Compute user stats based on how many guesses
+// Get user values, compare with the ships locations and update variables
 while (is_sunk == false) {
     guess = prompt('Ready, aim, fire! (enter a number from 0-6: ');
     if (guess < 0 || guess > 6) {
@@ -107,5 +107,26 @@ while (is_sunk == false) {
     }
 }
 ```
+As we can see above, I updated the user's guesses and check if there is a ```HIT``` or ```MISS```. The user is **alerted** if they hit the ship or not, until they successfully sink the ship.
 
+Finally, after the ship is sunk, the user rating is displayed on the browser again using the built-in ```alert()``` function. Anothing that I learned while trying to display the rating to the user is that JavaScript uses a concept called **coercion**. Coercion enables JavaScript to use ```+``` operator to concatenate the operands as long as one of the operands is a ```string```, no need to change the type of the other operand. That was amazing to learn. See below the code I used to display the user rating.
 
+```
+// Display User stats
+var stats = 'You took ' + guesses + ' guesses to sink the battleship, ' + 
+            'which means your shooting accuracy was ' + (3 / guesses) * 100 + '%';
+
+alert(stats);
+```
+As you can see, I did not have to convert the data type of ```guesses```. JavaScript also automatically concatenated the of the computation ```(3 / guesses) * 100``` with the rest of the string. This was really cool to learn.
+
+### Challenges
+The challenges I had as I stated earlier were:
+1. Figuring out how to generate random numbers within a certain range. One has to be careful when trying to generate random numbers in JavaScript since the ```Math.random()``` built-in method only returns decimal numbers between 0 and 1 (excluding 1).  
+2. Figuring out JavaScript logical operator for ```or```. JavaScript uses the symbol ```||``` unlike the usual English word ```or``` that I am used to in Python.
+3. Another challenge that I would say that I faced was keeping up the parenthesis and curly brackets
+
+### Summary
+This brings me to the end of my week 2 learning experience on JavaScript Programming language. I was very excited while learning JavaScript this week as I had to write a meaningful program. Trying to understand and figure out every parts of the project helped me learn new concepts as well as practice those that I learned before.
+
+You can check out my GitHub repo to see the codes while learning and implementing this project. I can not wait for another awesome week of learning JavaScript and sharing my progress with you!!
