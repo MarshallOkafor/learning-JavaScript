@@ -24,21 +24,13 @@ To implement the position of the ship, I assigned random integer numbers between
 
 <script src="https://gist.github.com/MarshallOkafor/25f2b3d49a34d1ffe6ed85b3a86ebbd6.js"></script>
 
-
 Adding 1 each to ```loc2``` and ```loc3``` variables was to ensure that the ship's location is contiguous. 
 
 ### Other Variables
 I needed to get the user guess, I needed to know how many times the user hits the ship and I needed to know how many guesses the user made before the ship was sunk. Also I needed to set the initial state of the ship to be ```false``` since it has not been sunk yet when the game starts. Below are the variables declared.
 
-```
-// Variables to hold the hits and guesses
-var guess; // No value assigned yet
-var hits = 0;
-var guesses = 0;
+<script src="https://gist.github.com/MarshallOkafor/2e80cfb5bfff3388b90a793443dacc43.js"></script>
 
-// Initial state of the ship before the game starts
-var is_sunk = false; // Boolean variable
-```
 ### The Game Logic
 Here, I was faced with implementing the main logic of the game. I needed to ask the user for an input, compare the input to the values stored in the location variables, update the necessary variables, and display the user score once the ship is sunk.
 
@@ -75,40 +67,14 @@ Unlike Python, JavaScript uses ```||``` as its ```or``` operator. This was anoth
 #### The Rest of the Game Logic
 If the user enters a valid number, the game continues until the ship the is sunk. See below the rest of the code.
 
-```
-// Get user values, compare with the ship's locations and update variables
-while (is_sunk == false) {
-    guess = prompt('Ready, aim, fire! (enter a number from 0-6: ');
-    if (guess < 0 || guess > 6) {
-        alert('Please enter a valid cell number!');
-    } else {
-        guesses = guesses + 1;  
-        
-        if (guess == loc1 || guess == loc2 || guess == loc3){
-            alert('It is a HIT!') // The user is informed of a HIT
-            hits += 1;
+<script src="https://gist.github.com/MarshallOkafor/ad2ac08d05f4e49e0bc89b35fddc3069.js"></script>
 
-            if (hits == 3){
-                is_sunk = true;
-                alert('You sank my battleship'); // The user is informed that the ship is sunk
-            }
-        } else {
-            alert('It is a MISS!') // The user is informed of a MISS
-        } 
-    }
-}
-```
 As we can see above, I updated the user's guesses and check if there is a ```HIT``` or ```MISS```. The user is **alerted** if they hit the ship or not, until they successfully sink the ship.
 
 Finally, after the ship is sunk, the user rating is displayed on the browser using the built-in ```alert()``` function. Another thing that I learned while trying to display the rating to the user is that JavaScript uses a concept called **coercion**. Coercion enables JavaScript to use the ```+``` operator to concatenate operands as long as one of the operands is a ```string```, no need to change the type of the other operand. That was amazing to learn. See below the code I used to display the user rating.
 
-```
-// Display User stats
-var stats = 'You took ' + guesses + ' guesses to sink the battleship, ' + 
-            'which means your shooting accuracy was ' + (3 / guesses) * 100 + '%';
+<script src="https://gist.github.com/MarshallOkafor/f5d5cb3bac5b4d06c1b1f4255ab544a5.js"></script>
 
-alert(stats);
-```
 As you can see, I did not have to convert the data type of ```guesses```. JavaScript also automatically concatenated the of value of the computation ```(3 / guesses) * 100``` with the rest of the string. This was really cool to learn.
 
 ### Challenges
