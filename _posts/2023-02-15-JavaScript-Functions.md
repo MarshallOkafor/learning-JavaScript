@@ -17,6 +17,8 @@ declared again.
 However, we can declare our own custom functions to perform task for us. I learned that to declare a function in JavaScript, you use the keyword 
 **function** followed by the **name** of the function, followed by parenthesis **( )** and finally the code block within curly brackets **{ }**. While to call a function, we simply type out the name of the function followed by parenthesis **( )**. See below a syntax of function declaration and function call in JavaScript.  
 
+<script src="https://gist.github.com/MarshallOkafor/5103583e72bfaa29b00dd9fa167ff1fe.js"></script>
+
 ```
 function printCourse() { // This function has no parameter
   
@@ -29,6 +31,8 @@ printCourse(); // This is a function call
 ```
 
 As seen above, the function ```printCourse()``` is my own custom function declared without a paramter just like in other programming languages that allows functions to be declared  without a parameter. Conversely, we can also declare a function with parameter or parameters and pass the necessary argument(s) to the function when called. Lets see some examples.
+
+<script src="https://gist.github.com/MarshallOkafor/5e5ba8fb2191dae1ae633ebecc2c76e6.js"></script>
 
 ```
 // Declaring a function without parameter
@@ -43,6 +47,8 @@ function addNum() {
 addNum(); // Function call
 ```
 We can also declare a function with parameter or paramters.
+
+<script src="https://gist.github.com/MarshallOkafor/b8408958ede1cbc8f79835194200a061.js"></script>
 
 ```
 // Declaring a function with two parameters
@@ -70,6 +76,8 @@ saveProfile(student, school, GPA, hasGraduated) // Variable names are passed as 
 #### Return Statement
 The ```return``` keyword is used in a JavaScript function to return a result when the function is called. The use of the ```return``` statement is similar to the ```return``` statement in Python.
 
+<script src="https://gist.github.com/MarshallOkafor/7eac8e88750cf4eb76668e5da7cb7b72.js"></script>
+
 ```
 // Using the return statement
 function bake(degree) {
@@ -91,6 +99,8 @@ console.log(statusOfTemp); // Prints the message on the console.
 
 ### Global and Local Variables
 I also learned about the concept of ```global``` and ```local``` variables in JavaScript. Variables declared outside of a function are global variables while variables declared within a function are local variables. Local variables can only be used within the function that they are defined. On the other hand, global variables can be accessed or used within the entire program. Lets take a look.
+
+<script src="https://gist.github.com/MarshallOkafor/b835bb75b3c1c197c3e9281d90981ea5.js"></script>
 
 ```
 // Global variables
