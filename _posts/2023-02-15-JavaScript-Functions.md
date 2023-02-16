@@ -19,48 +19,13 @@ However, we can declare our own custom functions to perform task for us. I learn
 
 <script src="https://gist.github.com/MarshallOkafor/5103583e72bfaa29b00dd9fa167ff1fe.js"></script>
 
-```
-function printCourse() { // This function has no parameter
-  
-  // Displays course name on the console
-  console.log("I am taking CSCI 5300");
-  
-}
-
-printCourse(); // This is a function call
-```
-
 As seen above, the function ```printCourse()``` is my own custom function declared without a paramter just like in other programming languages that allows functions to be declared  without a parameter. Conversely, we can also declare a function with parameter or parameters and pass the necessary argument(s) to the function when called. Lets see some examples.
 
 <script src="https://gist.github.com/MarshallOkafor/5e5ba8fb2191dae1ae633ebecc2c76e6.js"></script>
 
-```
-// Declaring a function without parameter
-function addNum() {
-
-  var num1 = 3; // Variables
-  var num2 = 6;
-  
-  console.log(num1 + num2) // Print the sum to the console
-}
-
-addNum(); // Function call
-```
 We can also declare a function with parameter or paramters.
 
 <script src="https://gist.github.com/MarshallOkafor/b8408958ede1cbc8f79835194200a061.js"></script>
-
-```
-// Declaring a function with two parameters
-function addNum(num1, num2) {
-
-  var sum = num1 + num2; // Sum the arguments
-  
-  console.log(sum)
-}
-
-addNum(3, 6); // Function call with two arguments
-```
 
 As seen above, the syntax to call a function in JavaScript is similar to many other programming languages such as Python. You simply type out the function name and pass the argument(s) if any to the function call.
 
@@ -78,59 +43,10 @@ The ```return``` keyword is used in a JavaScript function to return a result whe
 
 <script src="https://gist.github.com/MarshallOkafor/7eac8e88750cf4eb76668e5da7cb7b72.js"></script>
 
-```
-// Using the return statement
-function bake(degree) {
-    var message;
-
-    if (degree > 100) {
-        message = "Greater than boiling point";
-    } else {
-        message = "Less than boiling point";
-    }
-
-    return message; // message is returned to the caller
-}
-
-// Print the status of the temperature
-var statusOfTemp = bake(120); // Call to the bake function
-console.log(statusOfTemp); // Prints the message on the console.
-```
-
 ### Global and Local Variables
 I also learned about the concept of ```global``` and ```local``` variables in JavaScript. Variables declared outside of a function are global variables while variables declared within a function are local variables. Local variables can only be used within the function that they are defined. On the other hand, global variables can be accessed or used within the entire program. Lets take a look.
 
 <script src="https://gist.github.com/MarshallOkafor/b835bb75b3c1c197c3e9281d90981ea5.js"></script>
-
-```
-// Global variables
-var personName = "Henry";
-var age = 30;
-
-// A function with local variables
-function getAgeGrade(personAge) {
-
-    teenAgeStart = 13; // Local variables
-    teenAgeEnd = 17;  
-
-    if (personAge < teenAgeStart) {
-        console.log(personName + " you are not yet a teenager");
-    } else if (personAge > teenAgeEnd) {
-        console.log(personName + " you are older than a teenager");
-    } else {
-        console.log(personName + " you are a teenager"); // personName is a global variable
-    }
-}
-
-// Call to getAgeGrade function with age variable passed
-getAgeGrade(age); // Using the global variable here
-
-
-// Call to getAgeGrade function without an argument
-// This call gives a different result that is wrong
-// I will explain in the Challenges section
-getAgeGrade(); 
-```
 
 ### Challenges
 
