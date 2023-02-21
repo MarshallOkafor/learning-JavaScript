@@ -26,8 +26,23 @@ From the above, ```myCars``` is the name of the array variable and it used to ho
 ```Ford```. Note that a JavaScript array variable can hold values of different data types such as number, string, boolean etc. 
 
 #### Accessing Elements In JavaScript Array
-To access an element from an array in JavaScript, you use the index of the element. Note that JavaScript index is zero-based, thus the index of the first element
-is ```0``` just like in some other programming languages. Below is an example on how we can access an element in the ```myCar``` array variable we initially defined
-above.
+To access an element from an array in JavaScript, you use the index of the element. Note that JavaScript array indexing is zero-based, thus the index of the first element
+is ```0``` just like in some other programming languages. Below is an example on how we can access an element in the ```myCar``` array variable we initially defined above.
 
+```
+// Accessing an element in the array
+let car4 = myCar[3];
+
+// Print Ford to the console
+console.log(car4);
+```
+
+#### Changing An Element In JavaScript Array
+To change an element in JavaScript array, you simple assign the new value to the index of the element you want to change in the array. For exampl, to change the forth element of ```myCar``` variable from ```Ford``` to ```Audi```, we do the following:
+
+```
+// Change the fourth value in the array
+myCar[3] = "Audi";
+
+console.log(myCar); // This prints all the elements of the array with new item updated
 ```
