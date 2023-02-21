@@ -73,7 +73,7 @@ Below are the code for the calls to the functions implemented above.
 <script src="https://gist.github.com/MarshallOkafor/0c3bc7853745703cfa38cdb64cabf149.js"></script>
 
 ### Challenges
-1. One challenge that I faced was writing the ```for``` loop in JavaScript. I thought that it was going to be a similar syntax to that of python wit a slight difference. Interestingly, it is very different from that of Python. Writing a ```for``` loop in JavaScript has three parts, namely, **initialization***, **conditional-test**, and **increment**.
+1. One challenge that I faced was writing the ```for``` loop in JavaScript. I thought that it was going to be a similar syntax to that of Python wit a slight difference. Interestingly, it is very different from that of Python. Writing a ```for``` loop in JavaScript has three parts, namely, **initialization**, **conditional-test**, and **increment**.
 
 ### Summary
 This brings me to the end of my week-4 learning experience on JavaScript programming language. It was very exciting working with JavaScript array. The mini project made me write several codes to carry out different operations on a JavaScript array while learning more about the language. I look forward to leeaning more and working with JavaScript arrays, properties and methods.
