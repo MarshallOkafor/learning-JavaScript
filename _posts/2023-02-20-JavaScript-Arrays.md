@@ -9,7 +9,7 @@ This week I learned about how to work with arrays in JavaScript. A JavaScript ar
 
 I worked on a mini project which has to do with performing several operations in an array. This helped me to further deepen my understanding of JavaScript arrays.
 
-#### How To Create Array In JavaScript
+### How To Create Array In JavaScript
 First let us discuss some of the fundamentals. Below is the syntax to create an array in JavaScript:
 
 ```
@@ -139,11 +139,38 @@ function getMostCostEffective(scores, costs, highest) {
     for (var i = 0; i < scores.length; i++) {
         if (scores[i] == highest) {
             if (cost > costs[i]) {
-                index = i;
-                cost = costs[i];
+                index = i; // Getting the index of the most cost effective during each iteration
+                cost = costs[i]; // Updating the cost variable to the lowest found
             }
         }
     }
 
     console.log('Bubble solution #' + index + ' is the most cost effect!');
 }
+```
+
+Below are the code for the calls to the functions implemented above.
+
+```
+// Function calls
+printScores(scores);
+highest = getHighestScore(scores);
+solutionWithHighest(scores, highest);
+getMostCostEffective(scores, costs, highest);
+```
+### Challenges
+1. One challenge that I faced was writing of the ```for``` loop in JavaScript. I thought that it was going to be a similar syntax to that of python wit a slight difference. Interestingly, it is very different from that of Python. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
