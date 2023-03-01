@@ -14,12 +14,12 @@ the key to understanding the browser's document object model (DOM) and also play
 In JavaScript, an object is a **key-value** pair. A JavaScript object has a property or properties, and properties have values. The order of the keys of an
 object is not reserved and could be printed in any order. To create an object literal we use two curly brackets.
 
-#### Creating an empty Object
+### Creating an empty Object
 Below is a syntax of creating an empty object.  
 ```
-var person = {}
+var person = {};
 ```
-#### Creating an Object with Values
+### Creating an Object with Values
 Below are example of objects with values.  
 ```
 // These are few examples of objects with values
@@ -32,13 +32,13 @@ var fiat = {
     passengers: 2, 
     convertible: false,
     mileage: 88000
-}
+};
 
 // Create a rectangle object
 var rectangle = {
     length: 20,
     width: 40,
-}
+};
 
 // Create a person object
 var person = {
@@ -46,5 +46,18 @@ var person = {
     lastName: 'Okafor',
     nationality: 'Nigerian',
     age: 50
-}
+};
+```
+As we can see from the examples above, the properties of objects can hold any value such as number, string, boolean etc.
+### Accessing the property of JavaScript Object
+Accessing the properties of an object in JavaScript and retrieving the values is similar to many other programming languages. To do this, we start with the object name, followed my a period ```.```, then the property name. For example to access some of the properties of the objects we created above:
+```
+// Access the mileage property of the Fiat car object
+console.log(fiat.mileage);
+
+//Access the first name property of the person object
+console.log(person.firstName);
+
+// Access the width property of the rectangle property
+console.log(rectangle.width);
 ```
