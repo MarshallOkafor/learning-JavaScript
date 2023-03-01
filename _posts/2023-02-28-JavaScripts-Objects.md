@@ -97,5 +97,69 @@ var fiat = {
 // Call to the drive method
 fiat.drive();
 ```
+#### Extending the behavior of our Car Object
+Objects are very powerful because they can neatly hide and package the compexities of our data, thus allowing us to focus on the design of our code. In learrning more about JavaScript, I extended the behavior of the ```fiat``` car object. See the code below where I added more properties and methods to the object.
+
+```
+// Create a Fiat Car object
+var fiat = {
+    make: 'Fiat',
+    model: '500',
+    year: 1957,
+    color: 'Blue',
+    passengers: 2, 
+    convertible: false,
+    mileage: 88000,
+    started: false, // Added a new property
+    fuel: 0, // Added a new property
+
+    start: function() { // This is a new method
+        if (this.fuel > 0) {
+            this.started = true;
+        } else {
+            alert('The car is on empty, fill up before starting!')
+        }
+    },
+
+    stop: function() { // This is a new method
+        this.started = false;
+    },
+
+    drive: function() { // Modified the drive method
+        if (this.started) {
+            if (this.fuel > 0) {
+                alert(this.make + ' ' + this.model + ' goes zoom zoom!!');
+                this.fuel = this.fuel - 1;
+            } else {
+                alert('Uh oh, you are out of fuel.');
+                this.stop();
+            }
+        } else {
+            alert('You need to start the engine first.');
+        }
+    },
+
+    addFuel: function(amount) { // This is a new method
+        this.fuel = this.fuel + amount;
+    }
+};
+
+// Call fiat drive method
+fiat.start();
+fiat.drive();
+fiat.addFuel(2);
+fiat.start();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+
+```
+
 ### Challenges  
 1. **Objects are reference variables**. This one of the challenges that I encountered while working with objects. I noticed that a change to an object property locally within a function or anywhere in my code, changes the property of the object itself. In reading further and trying to undertand why this happens, I learned that objects are reference variables. Thus, the object's variable and property names are pointers to the object, and any change to them will ultimately change the object itself.
+2. The **this** keyword. I had errors while trying to either call the object's method or use the property of the object when trying I was extending the state and behavior of the ```fiat``` car object.
+
+### Summary
+This brings me to the end of my week-5 learning experience on JavaScript programming language. It was very exciting working with JavaScript objects.  I learned alot and look forward to working more with JavaScript objects, properties and methods.
+
+Feel free to visit my [GitHub repo](https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week5) to see the complete codes that I wrote while learning JavaScript this week. Stay tuned for week-5 progress report, I can not wait to share my experience!
