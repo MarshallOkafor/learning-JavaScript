@@ -15,4 +15,36 @@ In JavaScript, an object is a **key-value** pair. A JavaScript object has a prop
 object is not reserved and could be printed in any order. To create an object literal we use two curly brackets.
 
 #### Creating an empty Object
-Below is a syntax of 
+Below is a syntax of creating an empty object.  
+```
+var person = {}
+```
+#### Creating an Object with Values
+Below are example of objects with values.  
+```
+// These are few examples of objects with values
+// Create a Fiat Car object
+var fiat = {
+    make: 'Fiat',
+    model: '500',
+    year: 1957,
+    color: 'Blue',
+    passengers: 2, 
+    convertible: false,
+    mileage: 88000
+}
+
+// Create a rectangle object
+var rectangle = {
+    length: 20,
+    width: 40,
+}
+
+// Create a person object
+var person = {
+    firstName: 'Marshall',
+    lastName: 'Okafor',
+    nationality: 'Nigerian',
+    age: 50
+}
+```
