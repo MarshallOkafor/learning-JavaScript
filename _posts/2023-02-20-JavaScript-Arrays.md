@@ -78,5 +78,5 @@ Below are the code for the calls to the functions implemented above.
 ### Summary
 This brings me to the end of my week-4 learning experience on JavaScript programming language. It was very exciting working with JavaScript array. The mini project made me write several codes to carry out different operations on a JavaScript array while learning more about the language. I look forward to learning more and working with JavaScript arrays, properties and methods.
 
-Feel free to visit my [GitHub repo](https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week4) to see the complete codes that I wrote while learning JavaScript this week. Stay tuned for week-5 progress report, I can not wait to share my experience!
+Feel free to visit my [GitHub repo](https://github.com/MarshallOkafor/learning-JavaScript/tree/main/week4) to see the complete codes that I wrote while learning JavaScript this week. Stay tuned for week-6 progress report, I can not wait to share my experience!
 
