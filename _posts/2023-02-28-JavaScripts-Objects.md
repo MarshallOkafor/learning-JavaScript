@@ -16,11 +16,15 @@ object is not reserved and could be printed in any order. To create an object li
 
 ### Creating an empty Object
 Below is a syntax of creating an empty object.  
+
+<script src="https://gist.github.com/MarshallOkafor/d163b1590c638735b9393dce8482e359.js"></script>
 ```
 var person = {};
 ```
 ### Creating an Object with Values
 Below are example of objects with values.  
+
+<script src="https://gist.github.com/MarshallOkafor/008b32753462ee4f97c5013cfbace3c2.js"></script>
 ```
 // These are few examples of objects with values
 // Create a Fiat Car object
@@ -51,6 +55,8 @@ var person = {
 As we can see from the examples above, the properties of objects can hold any value such as number, string, boolean etc.
 ### Accessing the property of JavaScript Object
 Accessing the properties of an object in JavaScript and retrieving the values is similar to many other programming languages. To do this, we start with the object name, followed my a period ```.``` (otherwise known as a dot), then the property name. This approach is called the dot notation. For example to access some of the properties of the objects we created above:
+
+<script src="https://gist.github.com/MarshallOkafor/5b9e5c027673237309a7888c110807bd.js"></script>
 ```
 // Access the mileage property of the Fiat car object
 console.log(fiat.mileage);
@@ -63,6 +69,8 @@ console.log(rectangle.width);
 ```
 ### Changing an Object's property
 To change the value of an object's property, you simple assign the new value to the property. In addition, if you want to extend the properties of an object, i.e. add a new property, you can do that by specifying the new property and give it a value. See examples below:
+
+<script src="https://gist.github.com/MarshallOkafor/d790a02f52bb81b185f007520c994d34.js"></script>
 ```
 // Change the value of the car mileage
 fiat.mileage = 10000;
@@ -78,6 +86,8 @@ person.address = 'St Louis';
 ```
 ### Adding Behavior to JavaScript Objects
 Objects in JavaScript can have methods. The properties of an object define the state of the object, while the object's methods define the behavior of the object. See below an example of a method ```drive()``` added to the the ```fiat``` car object:
+
+<script src="https://gist.github.com/MarshallOkafor/3ab4c0c8284b213f729e2cc48554479d.js"></script>
 ```
 // Add a drive method to the Fiat car object
 var fiat = {
@@ -100,6 +110,7 @@ fiat.drive();
 #### Extending the behavior of our Car Object
 Objects are very powerful because they can neatly hide and package the compexities of our data, thus allowing us to focus on the design of our code. In learrning more about JavaScript, I extended the behavior of the ```fiat``` car object. See the code below where I added more properties and methods to the object.
 
+<script src="https://gist.github.com/MarshallOkafor/28a9b826ab3fca361c6423934d5d52dc.js"></script>
 ```
 // Create a Fiat Car object
 var fiat = {
