@@ -21,8 +21,8 @@ runtime environment. ```Express.js``` is a flexible ```Node.js``` web applicatio
 and **_milestones_** for all the APIs to be developed. I was assigned the **DELETE** API.  
 
 ### The Driver code
-We have the **main** code stored in a file ```main.js``` which has an interface to all of our separate APIs that we developed. The ```main.js``` is a critical 
-piece of this applcication because it is what starts the ```Node.js``` server and holds the routes to all other todo enpoints that implements the APIs.  
+We have the **main** code stored in a file ```main.js``` which has an interface to all of our separate APIs that we developed. The ```main.js``` is a critical piece of this applcication because it is what starts the ```Node.js``` server and holds the routes to all other todo enpoints that implements the APIs.  
+
 Below is the ```main.js``` file upon which we added routes to our APIs.
 
 <script src="https://gist.github.com/MarshallOkafor/9558304e5a3536c3402d4ec5ab043c8d.js"></script>
@@ -35,10 +35,7 @@ a response failure stating that the todo could not be found. Below is the code o
 <script src="https://gist.github.com/MarshallOkafor/4bd980eabf3507ccbaaa01175c6c67ec.js"></script>
 
 ### Skills/Knowledge learned earlier in the semester that were useful
-One important skill that I learned earlier in the semester that was very useful in the implementation of this project was use decoupling and modularization  
-of code towards achieving a flexible and scalable application. This project made me understand and appreciate more the importance of using APIs and interfaces  
-to ensure that our code bases have loosed inter-dependence and are substantially modularized. That is why we built the ```main.js``` file, worked on our APIs 
-seprately and included the routes in the ```main.js``` file.
+One important skill that I learned earlier in the semester that was very useful in the implementation of this project was use decoupling and modularization of code towards achieving a flexible and scalable application. This project made me understand and appreciate more the importance of using APIs and interfaces to ensure that our code bases have loosed inter-dependence and are substantially modularized. That is why we built the ```main.js``` file, worked on our APIs seprately and included the routes in the ```main.js``` file.
 
 ### Additional skills/knowledge learned to complete the project
 The additional skills I learned during the project were:
